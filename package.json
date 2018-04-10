@@ -1,0 +1,19 @@
+{
+  "name": "ipfs-example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app\t"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivamnema/IPFS-Example.git"
+  },
+  "author": "Shivam Nema",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivamnema/IPFS-Example/issues"
+  },
+  "homepage": "https://github.com/Shivamnema/IPFS-Example#readme"
+}
