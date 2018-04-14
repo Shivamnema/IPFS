@@ -1,6 +1,12 @@
 const router = require('express').Router();
 const multer = require('multer');
-const path = require('path')
+const path = require('path');
+
+const IPFS = require('ipfs');
+const node = new IPFS({ repo: '$/ipfs_data/data' });
+
+var fs = require('fs');
+
 // const app = express();   
 
 
@@ -17,8 +23,12 @@ const multerConf = {
 }
 
 router.post('/upload',multer(multerConf).single('file'), function(req, res) {
-    res.send('this is upload route');
-
+    // var fileName = 
+    
+    // var data = fs.readFileSync('../uploads' + );
+    
+    // node.add()
+    
 });
 
 module.exports = router;

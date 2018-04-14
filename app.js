@@ -1,5 +1,4 @@
 const express = require('express');
-const IPFS = require('ipfs');
 const bodyParser = require('body-parser')
 const morgan =  require('morgan');
 const app = express();
@@ -7,8 +6,6 @@ const router = express.Router();
 
 const index = require('./routes/index.js');
 
-
-const node = new IPFS();
 
 
 //middleware
